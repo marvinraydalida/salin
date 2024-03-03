@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #ffc400;
+}
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: 'Bantayog';
     src: url('/fonts/Bantayog-Regular.otf') format('otf');
@@ -16,5 +26,11 @@
     font-family: 'Bantayog';
     src: url('/fonts/Bantayog-Light.otf') format('otf');
     font-weight: 100; /* lighter */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hiraya';
+    src: url('/fonts/HirayaEdlB18xRegular-VGalV.ttf');
     font-style: normal;
 }
